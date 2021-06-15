@@ -23,6 +23,7 @@ fi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # https://www.atlassian.com/git/tutorials/dotfiles; use config <regular git command> for dotfiles repo
+# https://news.ycombinator.com/item?id=11071754
 #   make sure alias below is set and .gitignore includes .cfg (or whatever folder will hold this)
 #   then: git clone --bare <git-repo-url> $HOME/.cfg;
 #         run config checkout (replacing/merging any conflicting files)
