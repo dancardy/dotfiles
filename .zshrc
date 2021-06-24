@@ -46,3 +46,5 @@ fi
 #         run config checkout (replacing/merging any conflicting files)
 #         config config --local status.showUntrackedFiles no
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+alias gw='./gradlew'
